@@ -17,8 +17,60 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 body {
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    color: var(--gray-600);
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+h1 {
+    color: var(--blue-950);
+    font-weight: 300;
+    font-size: 48px;
+}
+
+p {
+    line-height: 28px;
+}
+
+
+/* hero section */
+
+#hero-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--white);
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 42%;
+}
+
+.hero-text p {
+    margin-bottom: 32px;
+}
+
+/* hero and features sections same styles */
+
+#hero-section p,
+#features-setcion p {
+    margin-top: 32px;
 }
