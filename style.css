@@ -16,6 +16,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+}
+ul,ol {
+    list-style: none;
+}
 
 body {
     font-family: 'Public Sans', sans-serif;
@@ -35,4 +41,26 @@ body {
     text-decoration: none;
     transition: opacity 0.3s ease;
     cursor: pointer;
+}
+
+/* header styles */
+.header-container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.header-ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.header-ul a {
+    color: var(--gray-600);
+    font-size: 16px;
+}
+.header-btn {
+    color: var(--white);
 }

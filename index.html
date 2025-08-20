@@ -9,13 +9,41 @@
       href="https://fonts.googleapis.com/css?family=Public+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <script src="./script.js" defer></script>
   </head>
   <body>
-      <header></header>
-      <section id="hero-section"></section>
-      <section id="features-section"></section>
-      <section id="articles-section"></section>
-      <footer></footer>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="./assets/images/logo-dark.svg" alt="digital bank" />
+          </a>
+        </div>
+        <nav class="header-nav" id="navBar">
+          <ul class="header-ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <div id="burger">
+          <img src="./assets/images/icon-hamburger.svg" alt="burger-menu">
+          <span id="closeIcon" class="material-symbols-outlined">close</span>
+        </div>
+        <div class="btn">
+          <a href="#" class="header-btn">Request Invite</a>
+        </div>
+      </div>
+    </header>
+    <section id="hero-section"></section>
+    <section id="features-section"></section>
+    <section id="articles-section"></section>
+    <footer></footer>
   </body>
 </html>
