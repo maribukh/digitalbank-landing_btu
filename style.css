@@ -27,7 +27,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     color: var(--gray-600);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* button */
@@ -112,6 +112,18 @@ p {
     right: -130px;
     top: -170px;
 
+}
+
+/* features section */
+
+#features-section {
+    background-color: var(--gray-100);
+    padding: 8rem 0rem;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* hero and features sections same styles */
