@@ -99,9 +99,9 @@ p {
 
 
 .bg-intro-desktop {
-    width: 100%;
+    width: 80%;
     position: absolute;
-    top: -0px;
+    bottom: 0;
 
 }
 
