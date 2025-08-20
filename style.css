@@ -22,3 +22,18 @@ body {
     font-weight: 400;
     font-size: 18px;
 }
+
+/* button */
+.btn {
+    font-size: 16px;
+    font-weight: 300;
+    display: inline-block;
+    background: linear-gradient(10deg, rgba(44, 182, 216, 1) 0%, rgba(50, 210, 93, 1) 100%);
+    color: var(--white);
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
