@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+
+    .bg-intro-desktop {
+        top: 0;
+    }
+
+    .image-mockups {
+        width: 65%;
+        top: -110px;
+    }
+
+    .features {
+        flex-wrap: wrap;
+        gap: 64px;
+    }
+
+    .feature-item {
+        width: 45%;
+    }
+}
