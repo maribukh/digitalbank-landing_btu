@@ -36,3 +36,27 @@ body {
     transition: opacity 0.3s ease;
     cursor: pointer;
 }
+
+
+/* articles styles */
+#articles-section {
+    padding: 50px 0;
+    background-color: var(--gray-50);
+}
+.articles-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.articles {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 30px;
+}
+.article-card {
+    border-radius: 5px;
+    background-color: var(--white);
+}
+.article-card img {
+    width: 100%;
+}
