@@ -61,6 +61,13 @@ h3 {
     margin-top: 2rem;
 }
 
+h4 {
+    color: var(--blue-950);
+    font-weight: 400;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
 p {
     line-height: 20px;
 }
@@ -90,4 +97,31 @@ p {
 
 .article-card img {
     width: 100%;
+}
+
+/* Hover state */
+h4:hover {
+    background: linear-gradient(270deg, #2cb6d8, #32d25d, #2cb6d8);
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 20s ease infinite;
+}
+
+
+/* animation */
+@keyframes shimmer {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
