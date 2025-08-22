@@ -36,3 +36,26 @@ body {
     transition: opacity 0.3s ease;
     cursor: pointer;
 }
+
+/* footer styles */
+footer {
+    background-color: var(--blue-950);
+    color: white;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-left {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80px;
+}
