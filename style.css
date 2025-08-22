@@ -65,3 +65,18 @@ h3 {
 p {
     line-height: 28px;
 }
+
+/* Hover state */
+.btn:hover {
+    opacity: 0.6;
+    background: linear-gradient(20deg, rgba(44, 182, 216, 1) 0%, rgba(50, 210, 93, 1) 100%);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+/* Active state */
+.btn:active {
+    opacity: 0.8;
+    background: linear-gradient(20deg, rgba(44, 182, 216, 1) 0%, rgba(50, 210, 93, 1) 100%);
+    box-shadow: 0 0 14px rgba(255, 255, 255, 0.9);
+    transform: scale(0.97);
+}
