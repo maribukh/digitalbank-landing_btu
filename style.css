@@ -53,13 +53,18 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 20px 0;
 }
 
 .header-ul {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+}
+
+.header-ul li {
+    position: relative;
+    padding: 20px 0;
+    cursor: pointer;
 }
 
 .header-ul a {
@@ -77,7 +82,26 @@ body {
     display: none;
 }
 
+
+
 /* Hover state */
+.header-ul li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(10deg, rgba(44, 182, 216, 1), rgba(50, 210, 93, 1));
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header-ul li:hover::after {
+    transform: scaleX(1);
+}
+
 .btn:hover {
     opacity: 0.6;
     background: linear-gradient(20deg, rgba(44, 182, 216, 1) 0%, rgba(50, 210, 93, 1) 100%);
